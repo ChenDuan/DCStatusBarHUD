@@ -19,7 +19,9 @@ static CGFloat const DCAnimationDuration = 0.25;
 //图文间距
 static CGFloat const margin = 10.0;
 
-//私有方法
+
+#pragma mark - 私有方法
+
 + (void)setUpText:(NSString *)text image:(UIImage *)image {
     CGRect windowF = [UIApplication sharedApplication].statusBarFrame;
     window_ = [[UIWindow alloc] init];
@@ -53,6 +55,9 @@ static CGFloat const margin = 10.0;
     } completion:nil];
     
 }
+
+
+#pragma mark - 公共方法
 
 + (void)showLoading:(NSString *)text {
     [self setUpText:text image:nil];
