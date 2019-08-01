@@ -5,7 +5,7 @@
 //  Created by duanchenvip on 15/10/27.
 //  Copyright © 2015年 duanchenvip. All rights reserved.
 // 234uuuuu
-//new dev
+//new de
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
